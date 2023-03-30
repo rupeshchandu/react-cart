@@ -1,0 +1,22 @@
+@import "colors";
+
+@media screen and (max-width:820px) {
+    .cart{
+        
+        grid-template-columns: 1fr;
+    
+      
+    
+        >aside{
+            padding: 2px;
+            border-radius: 0;
+    
+            >h2{
+           
+                font: 100 1.8rem "Roboto";
+            
+            }
+    
+        }
+    }
+}
